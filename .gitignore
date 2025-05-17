@@ -1,0 +1,68 @@
+# ======================
+# General ignores
+# ======================
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Zip or archive files
+*.zip
+
+# ======================
+# PHP + Composer
+# ======================
+
+# Composer dependencies
+/vendor/
+
+# Cache & session files (optional)
+cache/
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ======================
+# Node.js (if used for frontend tools like Tailwind, Vite, etc.)
+# ======================
+
+node_modules/
+dist/
+build/
+
+# ======================
+# XAMPP or local server stuff (optional)
+# ======================
+
+*.sql
+*.sqlite
+*.sqlite3
+
+# ======================
+# IDE/editor configs
+# ======================
+
+# VSCode
+.vscode/
+
+# JetBrains (PhpStorm, WebStorm, etc.)
+.idea/
+
+# Sublime
+*.sublime-*
+
+# ======================
+# Misc
+# ======================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
